@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/the-quizrr-show/static/css/main.cc1b8a40.css",
+    "main.js": "/the-quizrr-show/static/js/main.9649a9d1.js",
+    "static/media/GeneralKnowledge.png": "/the-quizrr-show/static/media/GeneralKnowledge.2ce58e0ea24727d4485e.png",
+    "static/media/Quiz.png": "/the-quizrr-show/static/media/Quiz.19f1008d49be52fed09b.png",
+    "static/media/Sports.jpg": "/the-quizrr-show/static/media/Sports.06fa4035474debd012b2.jpg",
+    "static/media/Maths.jpg": "/the-quizrr-show/static/media/Maths.bddfa6cf95a10f6c623e.jpg",
+    "static/media/Art.jpeg": "/the-quizrr-show/static/media/Art.8bc3c09e1e9a0984fcc8.jpeg",
+    "static/media/BrainIcon.png": "/the-quizrr-show/static/media/BrainIcon.cb443318687cae31b435.png",
+    "static/media/Congrats.png": "/the-quizrr-show/static/media/Congrats.dab8fee0515df5568a3a.png",
+    "static/media/Computers.jpg": "/the-quizrr-show/static/media/Computers.a2d5755b5ee3085e620d.jpg",
+    "static/media/Timeup.jpg": "/the-quizrr-show/static/media/Timeup.9e2c0a94c68e25b11462.jpg",
+    "index.html": "/the-quizrr-show/index.html",
+    "main.cc1b8a40.css.map": "/the-quizrr-show/static/css/main.cc1b8a40.css.map",
+    "main.9649a9d1.js.map": "/the-quizrr-show/static/js/main.9649a9d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc1b8a40.css",
+    "static/js/main.9649a9d1.js"
+  ]
+}
