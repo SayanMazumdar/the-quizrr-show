@@ -1,8 +1,12 @@
 import React from 'react';
 import Congrats from '../assets/Congrats.png';
 import Timeup from '../assets/Timeup.jpg'
+import { useQuiz } from '../contexts/QuizContext';
 
-export default function Points({ points, totalRes, dispatch, status, totalQues }) {
+export default function Points() {
+
+    const { points, totalRes, dispatch, status, totalQues } = useQuiz();
+    
     return (
         <>
             <div className='points'>

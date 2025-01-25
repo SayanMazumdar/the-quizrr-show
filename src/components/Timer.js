@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react'
+import { useQuiz } from '../contexts/QuizContext';
 
 let id;
-export default function Timer({ totalTime, dispatch }) {
+export default function Timer() {
 
-    const [timer, setTimer] = useState(totalTime)
+    const { totalQuestions, dispatch } = useQuiz();
+    const totalTime = totalQuestions * 5;
+    const [timer, setTimer] = useState(totalTime);
 
     useEffect(() => {
         id = setInterval(() => {

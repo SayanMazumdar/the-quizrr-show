@@ -4,9 +4,11 @@ import Computers from '../assets/Computers.jpg'
 import Maths from '../assets/Maths.jpg'
 import Sports from '../assets/Sports.jpg'
 import Art from '../assets/Art.jpeg'
+import { useQuiz } from '../contexts/QuizContext'
 
-export default function QuizStyle({ dispatch }) {
+export default function QuizStyle() {
 
+  const { dispatch } = useQuiz();
   const [topic, setTopic] = useState(0);
   const [difficulty, setDifficulty] = useState('easy');
   const [totalQuestions, setTotalQuestions] = useState(10);

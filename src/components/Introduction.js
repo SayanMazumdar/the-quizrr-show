@@ -1,7 +1,11 @@
 import React from 'react'
 import Brain from '../assets/BrainIcon.png'
+import { useQuiz } from '../contexts/QuizContext'
 
-export default function Introduction({ dispatch }) {
+export default function Introduction() {
+
+    const { dispatch } = useQuiz();
+    
     return (
         <div className='intro'>
             <h3>Welcome to THE QUIZRR APP!</h3>

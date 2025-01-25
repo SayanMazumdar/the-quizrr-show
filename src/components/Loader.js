@@ -1,8 +1,11 @@
 import { useEffect } from "react"
+import { useQuiz } from "../contexts/QuizContext";
 
 let ERROR_TEXT = '';
 
-export default function Loader({ topic, difficulty, totalQues, dispatch, status }) {
+export default function Loader() {
+
+  const { topic, difficulty, totalQues, dispatch, status } = useQuiz();
 
   useEffect(() => {
     async function fetchQues() {
